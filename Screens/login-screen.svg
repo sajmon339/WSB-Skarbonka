@@ -1,0 +1,23 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło -->
+  <rect width="360" height="640" fill="#f5f5f5"/>
+  
+  <!-- Logo i nazwa -->
+  <circle cx="180" cy="140" r="50" fill="#4CAF50"/>
+  <text x="180" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="20">Skarbonka</text>
+  
+  <!-- Formularz logowania -->
+  <rect x="30" y="240" width="300" height="260" rx="10" fill="white" stroke="#e0e0e0"/>
+  
+  <!-- Email input -->
+  <rect x="50" y="270" width="260" height="50" rx="5" fill="#f8f8f8"/>
+  <text x="65" y="300" fill="#666" font-family="Arial" font-size="14">Email</text>
+  
+  <!-- Hasło input -->
+  <rect x="50" y="340" width="260" height="50" rx="5" fill="#f8f8f8"/>
+  <text x="65" y="370" fill="#666" font-family="Arial" font-size="14">Hasło</text>
+  
+  <!-- Przycisk logowania -->
+  <rect x="50" y="420" width="260" height="50" rx="25" fill="#4CAF50"/>
+  <text x="180" y="450" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">ZALOGUJ</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło -->
+  <rect width="380" height="640" fill="#f5f5f5"/>
+  
+  <!-- Nagłówek -->
+  <rect width="380" height="60" fill="#4CAF50"/>
+  <text x="20" y="38" fill="white" font-family="Arial" font-size="20">Historia wpłat</text>
+  
+  <!-- Panel historii -->
+  <rect x="20" y="80" width="340" height="540" rx="10" fill="white" stroke="#e0e0e0"/>
+  
+  <!-- Filtr dat -->
+  <rect x="40" y="100" width="280" height="40" rx="5" fill="#f8f8f8"/>
+  <text x="60" y="125" fill="#666" font-family="Arial" font-size="14">Ostatnie 30 dni ▼</text>
+  
+  <!-- Historia wpłat -->
+  <line x1="40" y1="160" x2="320" y2="160" stroke="#e0e0e0"/>
+  
+  <!-- Wpłata 1 -->
+  <text x="40" y="190" fill="#333" font-family="Arial" font-size="16">+200,00 PLN</text>
+  <text x="40" y="210" fill="#666" font-family="Arial" font-size="12">18.01.2025, 14:30</text>
+  <text x="250" y="190" fill="#4CAF50" font-family="Arial" font-size="14">Zatwierdzona</text>
+  
+  <!-- Wpłata 2 -->
+  <line x1="40" y1="230" x2="320" y2="230" stroke="#e0e0e0"/>
+  <text x="40" y="260" fill="#333" font-family="Arial" font-size="16">+100,00 PLN</text>
+  <text x="40" y="280" fill="#666" font-family="Arial" font-size="12">17.01.2025, 11:15</text>
+  <text x="250" y="260" fill="#4CAF50" font-family="Arial" font-size="14">Zatwierdzona</text>
+  
+  <!-- Suwak przewijania -->
+  <rect x="335" y="160" width="20" height="420" fill="#f0f0f0" rx="10"/>
+  <rect x="337" y="165" width="16" height="50" fill="#ccc" rx="8"/>
+  
+  <!-- Przycisk powrotu -->
+  <rect x="20" y="580" width="340" height="50" rx="25" fill="#4CAF50"/>
+  <text x="180" y="610" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">WRÓĆ</text>
+</svg>

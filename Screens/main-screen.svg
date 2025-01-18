@@ -1,0 +1,63 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło -->
+  <rect width="360" height="640" fill="#f5f5f5"/>
+  
+  <!-- Nagłówek -->
+  <rect width="360" height="60" fill="#4CAF50"/>
+  <text x="20" y="38" fill="white" font-family="Arial" font-size="20">Panel główny</text>
+  
+  <!-- Saldo -->
+  <rect x="20" y="80" width="320" height="80" rx="10" fill="white" stroke="#e0e0e0"/>
+  <text x="40" y="110" fill="#666" font-family="Arial" font-size="14">Dostępne środki:</text>
+  <text x="40" y="140" fill="#333" font-family="Arial" font-size="24" font-weight="bold">5000,00 PLN</text>
+  
+  <!-- Panel banknotów z przewijaniem -->
+  <rect x="20" y="180" width="320" height="260" rx="10" fill="white" stroke="#e0e0e0"/>
+  <text x="40" y="210" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Stan banknotów:</text>
+  
+  <!-- Przyciski przewijania -->
+  <rect x="300" y="220" width="20" height="200" fill="#f0f0f0" rx="10"/>
+  <rect x="302" y="225" width="16" height="50" fill="#ccc" rx="8"/>
+  
+  <!-- Nagłówki sekcji -->
+  <text x="40" y="240" fill="#666" font-family="Arial" font-size="14">Na taśmie:</text>
+  
+  <!-- Tabela banknotów na taśmie -->
+  <line x1="40" y1="255" x2="290" y2="255" stroke="#e0e0e0"/>
+  <text x="50" y="275" fill="#333" font-family="Arial" font-size="14">500 zł</text>
+  <text x="160" y="275" fill="#333" font-family="Arial" font-size="14">2 szt.</text>
+  <text x="240" y="275" fill="#333" font-family="Arial" font-size="14">1000 zł</text>
+  
+  <text x="50" y="300" fill="#333" font-family="Arial" font-size="14">200 zł</text>
+  <text x="160" y="300" fill="#333" font-family="Arial" font-size="14">3 szt.</text>
+  <text x="240" y="300" fill="#333" font-family="Arial" font-size="14">600 zł</text>
+  
+  <!-- Suma na taśmie -->
+  <line x1="40" y1="315" x2="290" y2="315" stroke="#e0e0e0"/>
+  <text x="50" y="335" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Razem na taśmie:</text>
+  <text x="240" y="335" fill="#333" font-family="Arial" font-size="14" font-weight="bold">1600 zł</text>
+  
+  <!-- Sekcja kasetki -->
+  <text x="40" y="365" fill="#666" font-family="Arial" font-size="14">W kasetce:</text>
+  <line x1="40" y1="380" x2="290" y2="380" stroke="#e0e0e0"/>
+  
+  <text x="50" y="400" fill="#333" font-family="Arial" font-size="14">100 zł</text>
+  <text x="160" y="400" fill="#333" font-family="Arial" font-size="14">5 szt.</text>
+  <text x="240" y="400" fill="#333" font-family="Arial" font-size="14">500 zł</text>
+  
+  <!-- Suma w kasetce -->
+  <line x1="40" y1="415" x2="290" y2="415" stroke="#e0e0e0"/>
+  <text x="50" y="435" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Razem w kasetce:</text>
+  <text x="240" y="435" fill="#333" font-family="Arial" font-size="14" font-weight="bold">500 zł</text>
+  
+  <!-- Przyciski menu -->
+  <rect x="20" y="460" width="320" height="50" rx="5" fill="white" stroke="#e0e0e0"/>
+  <text x="40" y="490" fill="#333" font-family="Arial" font-size="16">Wpłaty</text>
+  
+  <rect x="20" y="520" width="320" height="50" rx="5" fill="white" stroke="#e0e0e0"/>
+  <text x="40" y="550" fill="#333" font-family="Arial" font-size="16">Wypłaty</text>
+  
+  <!-- Przycisk wypłaty -->
+  <rect x="20" y="580" width="320" height="50" rx="25" fill="#4CAF50"/>
+  <text x="180" y="610" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">WYPŁAĆ ŚRODKI</text>
+</svg>

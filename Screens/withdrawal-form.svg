@@ -1,0 +1,23 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło -->
+  <rect width="360" height="640" fill="#f5f5f5"/>
+  
+  <!-- Nagłówek -->
+  <rect width="360" height="60" fill="#4CAF50"/>
+  <text x="20" y="38" fill="white" font-family="Arial" font-size="20">Wypłata środków</text>
+  
+  <!-- Formularz -->
+  <rect x="20" y="80" width="320" height="240" rx="10" fill="white" stroke="#e0e0e0"/>
+  
+  <!-- Pole kwoty -->
+  <text x="40" y="120" fill="#666" font-family="Arial" font-size="14">Kwota do wypłaty:</text>
+  <rect x="40" y="140" width="280" height="50" rx="5" fill="#f8f8f8"/>
+  <text x="60" y="170" fill="#333" font-family="Arial" font-size="16">0,00 PLN</text>
+  
+  <!-- Informacja o dostępnych środkach -->
+  <text x="40" y="220" fill="#666" font-family="Arial" font-size="14">Dostępne środki: 5000,00 PLN</text>
+  
+  <!-- Przyciski -->
+  <rect x="40" y="250" width="280" height="50" rx="25" fill="#4CAF50"/>
+  <text x="180" y="280" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">ZATWIERDŹ WYPŁATĘ</text>
+</svg>
